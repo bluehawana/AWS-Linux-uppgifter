@@ -1,0 +1,2 @@
+touch hongzhi.txt
+chmod o-rwx hongzhi.txt
