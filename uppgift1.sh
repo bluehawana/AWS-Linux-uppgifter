@@ -12,7 +12,10 @@ echo dog  >>hongzhi.txt
 cat hongzhi.txt
 
 #4
-chomd 755 hongzhi.txt
+chomd 755 .uppgift1.sh
+./uppgift1.sh
+
+sudo chown root:root hongzhi.txt
 echo green >>hongzhi.txt
 echo frog  >>hongzhi.txt
 
