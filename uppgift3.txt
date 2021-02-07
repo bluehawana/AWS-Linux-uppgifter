@@ -1,0 +1,6 @@
+Power down VM
+Click setting
+Click the storage
+Under storage tree Figure A, click congtroller:SATA, then click add disk button,and select add hard disk
+Click Create New Disk in the popup window and create virtual hard disk wizard:Select VDI,size,Name and size of the disk then click create.
+Click ok and then restart VM
