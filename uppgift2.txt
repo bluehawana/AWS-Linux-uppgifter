@@ -7,3 +7,5 @@ curl localhost
 bash -x uppgift2.sh
 
 sudo systemctl stop nginx
+
+top
