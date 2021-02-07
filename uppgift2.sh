@@ -1,9 +1,10 @@
 #! bin/bash
-"
+
+echo "
 <!DOCTYPE html>
 <html>
 <head>
-<title>Hello Hongzhi!</title>
+<title>Hello nginx!</title>
 <style>
     body {
         width: 35em;
@@ -13,7 +14,7 @@
 </style>
 </head>
 <body>
-<h1>Welcome to nginx!</h1>
+<h1>Welcome to Hongzhi!</h1>
 <p>If you see this page, the nginx web server is successfully installed and
 working. Further configuration is required.</p>
 
@@ -24,5 +25,4 @@ Commercial support is available at
 
 <p><em>Thank you for using nginx.</em></p>
 </body>
-</html>
-" | sudo tee /var/www/html/index.nginx-debian.html
+" | sudo tee /var/www/html/index.nginx-debian.html > /dev/null
